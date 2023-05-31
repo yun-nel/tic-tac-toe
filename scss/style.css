@@ -1,4 +1,26 @@
+:root {
+  font-size: 6.25%;
+}
+
+body {
+  font-size: 16rem;
+}
+
 * {
   background-color: black;
   color: white;
+}
+
+.gameboard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 500rem;
+  height: 500rem;
+}
+.gameboard div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100rem;
+  border: 1px solid white;
 }/*# sourceMappingURL=style.css.map */
